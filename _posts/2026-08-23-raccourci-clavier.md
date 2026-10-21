@@ -5,26 +5,35 @@ date: 2026-08-18 18:00:00 +0200
 categories: quotidien grand-public
 ---
 
-Tout le monde connaît les principaux raccourcis clavier : Ctrl + C pour copier, Ctrl + V pour coller… Mais ce n’est que la partie émergée de l’iceberg. La plupart des logiciels grand public proposent des centaines de raccourcis : Blender, Adobe Photoshop, Excel, et ne parlons pas des logiciels plus niche. Alors, existe-t-il une méthode efficace pour pleinement mémoriser ses raccourcis clavier ?
+Tout le monde connaît les principaux raccourcis clavier : Ctrl + C pour copier, Ctrl + V pour coller… Mais ce n’est que la partie émergée de l’iceberg. La plupart des logiciels grand public proposent des centaines de raccourcis : Blender, Adobe Photoshop, Excel, et ne parlons pas des logiciels plus spécialisés. Alors, existe-t-il une méthode efficace pour pleinement mémoriser ses raccourcis clavier ?
 
-## Un peu d'histoire et de théorie
+## Un peu de théorie
 [Pas le temps pour la théorie ? Passons directement aux astuces](#mes-astuces)                                   
 
 Les raccourcis clavier ne datent pas d’hier. Dans les années 1970, les travaux menés au Xerox PARC autour du Xerox Alto ont contribué à poser les bases de nombreuses interactions avec le texte que nous utilisons encore aujourd’hui.
 
-Quelques années plus tard, chez Apple, ces principes sont repris et popularisés avec le Lisa puis le Macintosh. C’est notamment à cette époque que les célèbres ⌘C, ⌘X, ⌘V et ⌘Z s’imposent. Leurs équivalents avec Ctrl deviendront ensuite des conventions incontournables sur Windows.
+Quelques années plus tard, chez Apple, ces principes sont repris et popularisés avec le Lisa puis le Macintosh. C’est notamment à cette époque que les célèbres ⌘C, ⌘X, ⌘V et ⌘Z s’imposent<sup>[2](#références)</sup>. Leurs équivalents avec Ctrl deviendront ensuite des conventions incontournables sur Windows.
 
 Mais au fond, qu’est-ce qu’un raccourci clavier ?
 
-Le manuel du premier Macintosh en donne une définition assez simple : ce sont des moyens plus rapides d’effectuer des actions que l’on pourrait normalement réaliser autrement, notamment avec l’interface graphique.
+Le manuel du premier Macintosh en donne une définition assez simple : ce sont des moyens plus rapides d’effectuer des actions que l’on pourrait normalement réaliser autrement, notamment avec l’interface graphique<sup>[5](#références)</sup>.
 
 C’est cette définition que nous retiendrons ici. Un raccourci n’est donc pas indispensable pour effectuer une action : il permet surtout de gagner du temps une fois que l’on connaît cette action.
 
-Et c’est là que le problème commence. Les logiciels modernes proposent parfois des centaines de raccourcis. Microsoft Word en recense aujourd’hui plus de 200, tandis que des logiciels comme Blender ou Photoshop en proposent encore davantage.
+Il ne faut pas les confondre avec les touches d’accès (access keys), qui permettent d’atteindre ou d’activer un élément de l’interface au clavier, souvent en combinaison avec Alt. La distinction tient à leur fonction : un raccourci clavier déclenche directement une action, tandis qu’une touche d’accès sert à naviguer vers une commande ou à la sélectionner<sup>[9](#références)</sup>.
 
-Il ne s’agit donc pas de tous les apprendre par cœur, mais plutôt de savoir lesquels apprendre, comment les découvrir et comment les transformer en automatismes.
 
-## Quelques exemples d'utilisation avancée
+
+Et c’est là que le problème commence. Les logiciels modernes proposent parfois des centaines de raccourcis. Microsoft Word en recense aujourd’hui plus de 200<sup>[7](#références)</sup>, tandis que des logiciels comme Blender ou Photoshop en proposent encore davantage.
+
+Il ne s’agit donc pas de tous les apprendre par cœur, mais plutôt de les comprendre afin de savoir lesquels apprendre, comment les découvrir et comment les transformer en automatismes.
+
+### Comment les raccourcis clavier sont-ils organisés ?
+
+Les éditeurs de logiciels s’appuient généralement sur les recommandations de l’environnement de bureau pour lequel ils conçoivent leur application. Ces lignes directrices nous aide à comprendre comment les raccourcis clavier sont organisés et quelle logique leur est attribuée.<sup>[9](#références)</sup> <sup>[10](#références)</sup>
+
+
+### Quelques exemples d'utilisation avancée
 
 Pour observer des utilisateurs expérimentés à l’œuvre, rien de mieux que de se tourner vers les milieux compétitifs, comme la programmation compétitive ou les compétitions Excel. On remarque rapidement que ces utilisateurs maîtrisent les raccourcis clavier de manière presque instinctive : ils savent à l’avance quelle action ils souhaitent effectuer et utilisent directement le raccourci correspondant, sans avoir à y réfléchir.
 
@@ -59,7 +68,9 @@ Pour observer des utilisateurs expérimentés à l’œuvre, rien de mieux que d
 
 ## Mes astuces
 
-### 1. Plugins qui affichent le raccourci qui aurait pu être fait ★★★★
+<small class="text-primary"> Le nombre d’★ reflète le rapport entre la plus-value apportée et le temps investi au quotidien.  <small>
+
+### 1. Extensions qui affichent le raccourci qui aurait pu être fait ★★★★
 
   Les raccourcis clavier sont finalement peu utilisés, non pas parce qu’ils sont inefficaces, mais parce que les interfaces n’incitent pas suffisamment les utilisateurs à les apprendre. On peut prendre l’exemple des navigateurs : presque tout le monde est aujourd’hui un utilisateur expérimenté d’un navigateur, parfois après des années d’utilisation quotidienne. Pourtant, peu de personnes utilisent des raccourcis pour changer d’onglet, même lorsqu’ils permettent de gagner du temps.
 
@@ -98,33 +109,6 @@ C’est à partir de ce constat qu’il est pertinent de prioriser la mémorisat
 
   Les apprendre est donc particulièrement rentable : une fois mémorisés, ces raccourcis deviennent des automatismes utilisables dans de nombreux logiciels. Ils permettent ainsi de gagner du temps en réduisant les manipulations répétitives.
 
-  Voici la liste à connaitre :
-
-  | Action | macOS | Windows | Linux (GUI) |
-  |---|---|---|---|
-  | **Copier** | `⌘ + C` | `Ctrl + C` | `Ctrl + C` |
-  | **Couper** | `⌘ + X` | `Ctrl + X` | `Ctrl + X` |
-  | **Coller** | `⌘ + V` | `Ctrl + V` | `Ctrl + V` |
-  | **Annuler** | `⌘ + Z` | `Ctrl + Z` | `Ctrl + Z` |
-  | **Rétablir** | `⌘ + ⇧ + Z` | `Ctrl + Y` | `Ctrl + Y`* |
-  | **Tout sélectionner** | `⌘ + A` | `Ctrl + A` | `Ctrl + A` |
-  | **Enregistrer** | `⌘ + S` | `Ctrl + S` | `Ctrl + S` |
-  | **Ouvrir** | `⌘ + O` | `Ctrl + O` | `Ctrl + O` |
-  | **Nouveau** | `⌘ + N` | `Ctrl + N` | `Ctrl + N` |
-  | **Fermer** | `⌘ + W` | `Ctrl + W` | `Ctrl + W` |
-  | **Quitter l'application** | `⌘ + Q` | `Alt + F4` | `Ctrl + Q` / `Alt + F4` |
-  | **Rechercher** | `⌘ + F` | `Ctrl + F` | `Ctrl + F` |
-  | **Imprimer** | `⌘ + P` | `Ctrl + P` | `Ctrl + P` |
-  | **Actualiser** | `⌘ + R` | `F5` / `Ctrl + R` | `F5` / `Ctrl + R` |
-  | **Début de ligne** | `⌘ + ←` | `Home` | `Home` |
-  | **Fin de ligne** | `⌘ + →` | `End` | `End` |
-  | **Début du document** | `⌘ + ↑` | `Ctrl + Home` | `Ctrl + Home` |
-  | **Fin du document** | `⌘ + ↓` | `Ctrl + End` | `Ctrl + End` |
-  | **Déplacer le curseur par mot** | `⌥ + ← / →` | `Ctrl + ← / →` | `Ctrl + ← / →` |
-  | **Supprimer le mot précédent** | `⌥ + Backspace` | `Ctrl + Backspace` | `Ctrl + Backspace` |
-  | **Supprimer jusqu'à la fin du mot** | `⌥ + Delete` | `Ctrl + Delete` | `Ctrl + Delete` |
-
-  \* Sous Linux, le raccourci de rétablissement peut varier selon l'application ; `Ctrl + Shift + Z` est également très courant.
 
 # Bonus 
  
@@ -153,13 +137,20 @@ Selon le moment où vous lirez cet article, le projet aura peut-être évolué e
   </div>
 </div>
 
-## Sources 
 
-- [The Origin Of Cut, Copy, And Paste](https://hackaday.com/2021/01/20/the-origin-of-cut-copy-and-paste/)
-- [Les origines de CTRL+C, CTRL+V, CTRL+Z expliquées](https://www.journaldufreenaute.fr/les-origines-de-ctrlc-ctrlv-ctrlx-et-ctrlz-expliquees/)
-- [Décès de Larry Tesler, l'homme qui n'aimait pas les modes](www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053)
-- [Histoire de raccourcis clavier apple partie 1 le trio couper copier coller](blog.marcosx.net/2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller/)
-- [Manuel du Macintosh de 1984](https://archive.org/details/1984macintoshmanual/page/102/mode/2up)
-- [Microsoft Word Quick Reference](https://archive.org/details/MicrosoftWord1.00forMacintosh_1985_Manual/Quick%20Reference/mode/2up)
-- [Raccourcis clavier Word Moderne](https://support.microsoft.com/fr-FR/accessibility/word/keyboard-shortcuts-in-word#bkmk_ribbonwin)
-- [Démonstration du couper, copier et coller Gypsy](www.youtube.com/watch?v=Dhmz68CII9Y)
+
+
+## Références
+
+1. [The Origin Of Cut, Copy, And Paste](https://hackaday.com/2021/01/20/the-origin-of-cut-copy-and-paste/)
+2. [Les origines de CTRL+C, CTRL+V, CTRL+Z expliquées](https://www.journaldufreenaute.fr/les-origines-de-ctrlc-ctrlv-ctrlx-et-ctrlz-expliquees/)
+3. [Décès de Larry Tesler, l'homme qui n'aimait pas les modes](www.macg.co/ailleurs/2020/02/deces-de-larry-tesler-lhomme-qui-naimait-pas-les-modes-112053)
+4. [Histoire de raccourcis clavier apple partie 1 le trio couper copier coller](blog.marcosx.net/2020/04/15/Histoire-de-raccourcis-clavier-apple-partie1-le-trio-couper-copier-coller/)
+5. [Manuel du Macintosh de 1984](https://archive.org/details/1984macintoshmanual/page/102/mode/2up)
+6. [Microsoft Word Quick Reference](https://archive.org/details/MicrosoftWord1.00forMacintosh_1985_Manual/Quick%20Reference/mode/2up)
+7. [Raccourcis clavier Word Moderne](https://support.microsoft.com/fr-FR/accessibility/word/keyboard-shortcuts-in-word#bkmk_ribbonwin)
+8. [Démonstration du couper, copier et coller Gypsy](www.youtube.com/watch?v=Dhmz68CII9Y)
+9. [Guidelines for Keyboard User Interface Design](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design#creating-shortcut-keys-and-access-keys)
+10. [GNOME Human Interface Guidelines](https://developer.gnome.org/hig/guidelines/keyboard.html#shortcut-keys)
+11. [Convention Microsoft Windows Raccourcis](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design#windows-shortcut-keys)
+
