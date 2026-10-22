@@ -12,25 +12,19 @@ Tout le monde connaît les principaux raccourcis clavier : Ctrl + C pour copier,
 
 Les raccourcis clavier ne datent pas d’hier. Dans les années 1970, les travaux menés au Xerox PARC autour du Xerox Alto ont contribué à poser les bases de nombreuses interactions avec le texte que nous utilisons encore aujourd’hui.
 
-Quelques années plus tard, chez Apple, ces principes sont repris et popularisés avec le Lisa puis le Macintosh. C’est notamment à cette époque que les célèbres ⌘C, ⌘X, ⌘V et ⌘Z s’imposent<sup>[2](#références)</sup>. Leurs équivalents avec Ctrl deviendront ensuite des conventions incontournables sur Windows.
+Quelques années plus tard, chez Apple, ces principes sont repris, améliorés et popularisés avec le Lisa puis le Macintosh. C’est notamment à cette époque que les célèbres ⌘C, ⌘X, ⌘V et ⌘Z apparaissent<sup>[2](#références)</sup>. Leurs équivalents avec Ctrl deviendront ensuite des conventions incontournables sur Windows.
 
 Mais au fond, qu’est-ce qu’un raccourci clavier ?
 
 Le manuel du premier Macintosh en donne une définition assez simple : ce sont des moyens plus rapides d’effectuer des actions que l’on pourrait normalement réaliser autrement, notamment avec l’interface graphique<sup>[5](#références)</sup>.
 
-C’est cette définition que nous retiendrons ici. Un raccourci n’est donc pas indispensable pour effectuer une action : il permet surtout de gagner du temps une fois que l’on connaît cette action.
-
-Il ne faut pas les confondre avec les touches d’accès (access keys), qui permettent d’atteindre ou d’activer un élément de l’interface au clavier, souvent en combinaison avec Alt. La distinction tient à leur fonction : un raccourci clavier déclenche directement une action, tandis qu’une touche d’accès sert à naviguer vers une commande ou à la sélectionner<sup>[9](#références)</sup>.
-
-
+Il ne faut pas les confondre avec les touches d’accès (access keys), qui permettent d’atteindre ou d’activer un élément de l’interface au clavier<sup>[9](#références)</sup>.
 
 Et c’est là que le problème commence. Les logiciels modernes proposent parfois des centaines de raccourcis. Microsoft Word en recense aujourd’hui plus de 200<sup>[7](#références)</sup>, tandis que des logiciels comme Blender ou Photoshop en proposent encore davantage.
 
-Il ne s’agit donc pas de tous les apprendre par cœur, mais plutôt de les comprendre afin de savoir lesquels apprendre, comment les découvrir et comment les transformer en automatismes.
-
 ### Comment les raccourcis clavier sont-ils organisés ?
 
-Les éditeurs de logiciels s’appuient généralement sur les recommandations de l’environnement de bureau pour lequel ils conçoivent leur application. Ces lignes directrices nous aide à comprendre comment les raccourcis clavier sont organisés et quelle logique leur est attribuée.<sup>[9](#références)</sup> <sup>[10](#références)</sup>
+Les éditeurs de logiciels s’appuient généralement sur les recommandations de l’environnement de bureau ou du système pour lequel ils conçoivent leur application.<sup>[9](#références)</sup> <sup>[10](#références)</sup>
 
 
 ### Quelques exemples d'utilisation avancée
@@ -114,11 +108,11 @@ C’est à partir de ce constat qu’il est pertinent de prioriser la mémorisat
  
 L’astuce n°1 est particulièrement efficace : elle permet de rapidement transformer les raccourcis clavier en réflexe sans y consacrer du temps
 
-Cependant, il existe très peu de projets présentant les mêmes caractéristiques et d’après mes recherches, presque aucun ne semble s’intégrer directement au système. Le seul projet que j’ai trouvé dans cette direction est [KeyNudge](https://github.com/Johnixr/KeyNudge) disponible sur MacOS, que je n’ai toutefois jamais pu testé ( je n'ai pas de Mac).
+Cependant, il existe très peu de projets présentant les mêmes caractéristiques et d’après mes recherches, presque aucun ne semble s’intégrer directement au système. Le seul projet que j’ai trouvé dans cette direction est [KeyNudge](https://github.com/Johnixr/KeyNudge) disponible sur MacOS, que je n’ai toutefois jamais pu testé.
 
 Utilisant GNOME au quotidien, j’ai commencé à développer un POC afin de vérifier si l’API d’accessibilité ATSPI2 pouvait permettre de réaliser ce type d’application. Les premiers tests sont concluants.
 
-Selon le moment où vous lirez cet article, le projet aura peut-être évolué et sera peut-être devenu suffisamment abouti pour être utilisé au quotidien. Si vous souhaitez suivre son évolution, vous pouvez retrouver le projet ici : [Shortcut Reminder](https://github.com/Razaaaaaaa/Shortcut-Reminder/)
+Selon le moment où vous lirez cet article, le projet aura peut-être évolué et sera peut-être devenu suffisamment abouti pour être utilisé au quotidien. Si vous souhaitez suivre son évolution, vous pouvez retrouver le projet [ici](https://github.com/Razaaaaaaa/Shortcut-Reminder/).
 
 
 <div class="container">
