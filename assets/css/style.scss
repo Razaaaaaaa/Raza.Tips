@@ -48,18 +48,16 @@ legend {
   width: auto;
 }
 
+  .form-control::placeholder {
+    color: white;
+    opacity: 1;
+  }
 
-.whiptail-btn {
-  border: none;
-  background-color: var(--bs-body-color);
-  color: var(--bs-body-bg);
-}
 
-.whiptail-btn:hover {
-  background-color: red;
-  color: var(--bs-body-color);
-}
-
+  .tuibutton:hover {
+    color:black !important; 
+    background-color: white;
+  }
 
 @media (min-width: 992px) {
     body {

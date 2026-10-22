@@ -4,30 +4,38 @@ title: README.md
 paginate_path: "/blog/page:num/"
 ---
 
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center p-4">
   <img src="/assets/images/title.png" class="img-fluid" alt="Logo">
 </div>
 
 
 
-<div class="mb-3" >
-  <h2>Mes dernières astuces</h2>
+<div class="p-3 d-flex align-items-center d-flex gap-3 p-4">
+  <input
+    class="form-control text-white"
+    style="border: solid 1px white;"
+    type="search"
+    placeholder="Rechercher une astuce"
+    aria-label="Rechercher une astuce"
+  >
 </div>
+
+
 
 
 <div class="container d-flex flex-column gap-3">
 <div id="astuces" class=" ">
   {% for post in site.posts limit:5 %}
-    <div class="text-decoration-none  bg-white text-dark pb-2 ">
+    <div class="text-decoration-none  pb-2 ">
       <fieldset class="" >
-<legend style="border-right: 1px solid; border-left: 1px solid;" class="mx-auto ps-1 pe-1 ">
-  <span style="color: red;">{{ post.title }}</span>
+<legend class=" ps-1 pe-1 ">
+  {{ post.title }}
 </legend>
 
         <div>
           <div class="gap-3 border ">
             <div>
-              <div class="fw-semibold text-danger text-center mx-auto">
+              <div class="fw-semibold text-danger mx-auto">
                 
               </div>
 
@@ -44,7 +52,7 @@ paginate_path: "/blog/page:num/"
         <div>
 
           {% if post.excerpt %}
-            <p class="card-text">
+            <p class="card-text" >
               {{ post.excerpt | strip_html | truncatewords: 100 }}
             </p>
           {% endif %}
@@ -52,7 +60,7 @@ paginate_path: "/blog/page:num/"
                     {% if post.categories %}
               <div class="d-flex gap-2">
                 {% for category in post.categories %}
-                  <span class="bg-primary text-white p-1">
+                  <span class="p-1" style="border: solid 1px white;">
                     {{ category }}
                   </span>
                 {% endfor %}
@@ -60,10 +68,12 @@ paginate_path: "/blog/page:num/"
             {% endif %}
 
 
-       <div class="text-center">
-  <a href="{{ post.url | relative_url }}" class="d-inline-block whiptail-btn text-decoration-none">
-    &lt; Lire &gt;
-  </a>
+       <div class=" p-1 text-center">
+<a class=" tuibutton text-white rounded-0 text-decoration-none"
+   href="{{ post.url | relative_url }}">
+  [ <span class="text-primary">O</span>uvrir ]
+</a>
+
 </div>
 
 
@@ -81,7 +91,7 @@ paginate_path: "/blog/page:num/"
   <ul class="pagination justify-content-center gap-2">
 
       <li class="page-item">
-        <a class="page-link rounded-0 bg-black   text-white"
+        <a class="page-link rounded-0   text-white"
            href="{{ paginator.previous_page_path | relative_url }}#astuces">
           &laquo;
         </a>
@@ -90,24 +100,24 @@ paginate_path: "/blog/page:num/"
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
         <li class="page-item">
-          <span class="page-link rounded-0  bg-black  text-primary border-primary">
-            {{ page }}
+          <span class="page-link rounded-0   text-primary border-primary">
+             {{ page }} 
           </span>
         </li>
 
       {% elsif page == 1 %}
         <li class="page-item">
-          <a class="page-link rounded-0  bg-black text-white border-white"
+          <a class="page-link rounded-0  text-white border-white"
              href="{{ '/' | relative_url }}#astuces">
-            {{ page }}
+            [ {{ page }} ]
           </a>
         </li>
 
       {% else %}
         <li class="page-item">
-          <a class="page-link rounded-0 bg-black text-white border-white"
+          <a class="page-link rounded-0 text-white border-white"
              href="{{ site.paginate_path | relative_url | replace: ':num', page }}#astuces">
-            {{ page }}
+            [ {{ page }} ]
           </a>
         </li>
       {% endif %}
@@ -115,7 +125,7 @@ paginate_path: "/blog/page:num/"
 
  
       <li class="page-item">
-        <a class="page-link rounded-0 bg-black text-white border-white"
+        <a class="page-link rounded-0 text-white border-white"
            href="{{ paginator.next_page_path | relative_url }}#astuces">
           &raquo;
         </a>
