@@ -20,7 +20,10 @@ paginate_path: "/blog/page:num/"
   {% for post in site.posts limit:5 %}
     <div class="text-decoration-none  bg-white text-dark pb-2 ">
       <fieldset class="" >
-        <legend class="mx-auto"> <span style="float: none;width: auto;">┤</span> <span style="color:red;">{{ post.title }} </span> <span style="float: none;width: auto;">├</span></legend>
+<legend style="border-right: 1px solid; border-left: 1px solid;" class="mx-auto ps-1 pe-1 ">
+  <span style="color: red;">{{ post.title }}</span>
+</legend>
+
         <div>
           <div class="gap-3 border ">
             <div>
