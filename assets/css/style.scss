@@ -39,7 +39,26 @@ body {
    
 }
 
+fieldset, legend {
+   all: revert;
+}
 
+legend {
+  float: none;
+  width: auto;
+}
+
+
+.whiptail-btn {
+  border: none;
+  background-color: var(--bs-body-color);
+  color: var(--bs-body-bg);
+}
+
+.whiptail-btn:hover {
+  background-color: red;
+  color: var(--bs-body-color);
+}
 
 
 @media (min-width: 992px) {

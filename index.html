@@ -9,66 +9,36 @@ paginate_path: "/blog/page:num/"
 </div>
 
 
-<span class="text-success">raza@raza ~$ </span> glow README.MD
 
-
-
-<div>
-  <h1 >Pourquoi ce blog ?</h1>
-</h1>
-
-<div class="container">
-  <div>
-<p>Comme beaucoup, j’utilise chaque jour de nombreux logiciels sur mon ordinateur : éditeur de code, terminal, débogueur, navigateur et bien d’autres.</p>
-
-<p>C'est en travaillant avec ces outils que j’ai constaté que ma manière d'avancer manquait d’efficacité. Je me suis alors rendu compte que ces lenteurs ne venaient pas seulement de la complexité des problèmes que je cherchais a résoudre, mais aussi de ma maîtrise et de la compréhension parfois limitée des outils à ma disposition.</p>
-
-<p>Cette expérience m’a progressivement amené à une réflexion plus générale : utiliser régulièrement un outil ne signifie pas nécessairement savoir en tirer pleinement parti. Il existe souvent de nombreuses fonctionnalités, techniques et méthodes permettant d’en exploiter tout le potentiel, mais que l’on ne prend pas toujours le temps de découvrir.</p>
-
-<p>Ce blog est né de cette réflexion : Je posterais des articles qui explore les différentes techniques et méthodes qui permettent de mieux exploiter nos outils et d'améliorer notre productivité au quotidien.</p>
-
-<p>Il s'adresse a toute les personnes de tous horizons qui souhaite adopter de meilleurs habitudes de travail au quotidien sans pour autant y passer beaucoup de temps</p>
-</div>
+<div class="mb-3" >
+  <h2>Mes dernières astuces</h2>
 </div>
 
 
-<div >
-  <h1>Mes dernières astuces</h1>
-</div>
-
-
-<div class="container">
-<div id="astuces" class="d-flex flex-column gap-4 ">
+<div class="container d-flex flex-column gap-3">
+<div id="astuces" class=" ">
   {% for post in site.posts limit:5 %}
-    <a href="{{ post.url | relative_url }}" class="text-decoration-none text-white">
-      <div class="card  text-white border-0">
-        <div class="card-header ">
-          <div class="d-flex justify-content-between align-items-center gap-3">
-
+    <div class="text-decoration-none  bg-white text-dark pb-2 ">
+      <fieldset class="" >
+        <legend class="mx-auto"> <span style="float: none;width: auto;">┤</span> <span style="color:red;">{{ post.title }} </span> <span style="float: none;width: auto;">├</span></legend>
+        <div>
+          <div class="gap-3 border ">
             <div>
-              <div class="fw-semibold">
-                {{ post.title }}
+              <div class="fw-semibold text-danger text-center mx-auto">
+                
               </div>
 
               <div class="text-secondary small">
-                {{ post.date | date: "%Y-%m-%d" }}
+                {{ post.date | date: "%d-%m-%Y" }}
               </div>
             </div>
 
-            {% if post.categories %}
-              <div class="d-flex gap-2">
-                {% for category in post.categories %}
-                  <span class="bg-white text-black p-1">
-                    {{ category }}
-                  </span>
-                {% endfor %}
-              </div>
-            {% endif %}
+
 
           </div>
         </div>
 
-        <div class="card-body">
+        <div>
 
           {% if post.excerpt %}
             <p class="card-text">
@@ -76,10 +46,31 @@ paginate_path: "/blog/page:num/"
             </p>
           {% endif %}
 
-        </div>
+                    {% if post.categories %}
+              <div class="d-flex gap-2">
+                {% for category in post.categories %}
+                  <span class="bg-primary text-white p-1">
+                    {{ category }}
+                  </span>
+                {% endfor %}
+              </div>
+            {% endif %}
+
+
+       <div class="text-center">
+  <a href="{{ post.url | relative_url }}" class="d-inline-block whiptail-btn text-decoration-none">
+    &lt; Lire &gt;
+  </a>
+</div>
+
+
+          </fieldset>
+
 
       </div>
-    </a>
+
+
+    </div>
   {% endfor %}
 
 {% if paginator.total_pages > 1 %}
@@ -134,18 +125,11 @@ paginate_path: "/blog/page:num/"
 </div>
 </div>
 
-<div>
-  <h1>Contribution</h1>
-</h1>
-
-<div class="container">
-  <div>
-
-<p>Vous avez des astuces à partager ? Envoyez-les-moi par e-mail à <a href="mailto:contact@raza.tips">contact@raza.tips</a> ou ouvrez une issue sur <a href="https://github.com/Razaaaaaaa/razaaaaaaa.github.io">GitHub</a>. Votre contribution sera créditée !</p>
-<p>Vous pouvez également rejoindre le <a href="https://matrix.to/#/#razatips:matrix.org">serveur Matrix</a>.</p>
 
 
-</div>
+
+
+
 </div>
 
 
