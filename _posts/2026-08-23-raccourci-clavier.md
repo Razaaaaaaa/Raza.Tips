@@ -1,33 +1,33 @@
 ---
 layout: post
-title: "Comment mémoriser vos raccourcis clavier ?"
+title: "Mémoriser ses raccourcis clavier"
 date: 2026-08-18 18:00:00 +0200
-categories: quotidien grand-public
+categories: quotidien grand-public ihm
 ---
 
-Tout le monde connaît les principaux raccourcis clavier : Ctrl + C pour copier, Ctrl + V pour coller… Mais ce n’est que la partie émergée de l’iceberg. La plupart des logiciels grand public proposent des centaines de raccourcis : Blender, Adobe Photoshop, Excel, et ne parlons pas des logiciels plus spécialisés. Alors, existe-t-il une méthode efficace pour pleinement mémoriser ses raccourcis clavier ?
+Vous utilisez sans doute déjà Ctrl + C et Ctrl + V, ou même quelques autres raccourcis clavier. Mais qu'en est-il des dizaines autres voire centaines de votre système ou vos logiciels préféré. Nous explorons dans cet article des manières pour les intégrer efficacement à votre quotidien.
 
-## Un peu de théorie
+## Mais d'abord un peu de théorie
 [Pas le temps pour la théorie ? Passons directement aux astuces](#mes-astuces)                                   
 
-Les raccourcis clavier ne datent pas d’hier. Dans les années 1970, les travaux menés au Xerox PARC autour du Xerox Alto ont contribué à poser les bases de nombreuses interactions avec le texte que nous utilisons encore aujourd’hui.
+Dans les années 1970, les travaux menés au Xerox PARC autour du Xerox Alto ont contribué à poser les bases de nombreuses interactions avec le texte que nous utilisons encore aujourd’hui.
 
 Quelques années plus tard, chez Apple, ces principes sont repris, améliorés et popularisés avec le Lisa puis le Macintosh. C’est notamment à cette époque que les célèbres ⌘C, ⌘X, ⌘V et ⌘Z apparaissent<sup>[2](#références)</sup>. Leurs équivalents avec Ctrl deviendront ensuite des conventions incontournables sur Windows.
 
 Mais au fond, qu’est-ce qu’un raccourci clavier ?
 
-Le manuel du premier Macintosh en donne une définition assez simple : ce sont des moyens plus rapides d’effectuer des actions que l’on pourrait normalement réaliser autrement, notamment avec l’interface graphique<sup>[5](#références)</sup>.
+Le manuel du premier Macintosh en donne une définition assez simple :  ce sont des moyens plus rapides d’effectuer des actions que l’on pourrait normalement réaliser autrement, notamment avec l’interface graphique<sup>[5](#références)</sup>.
 
 Il ne faut pas les confondre avec les touches d’accès (access keys), qui permettent d’atteindre ou d’activer un élément de l’interface au clavier<sup>[9](#références)</sup>.
 
 Et c’est là que le problème commence. Les logiciels modernes proposent parfois des centaines de raccourcis. Microsoft Word en recense aujourd’hui plus de 200<sup>[7](#références)</sup>, tandis que des logiciels comme Blender ou Photoshop en proposent encore davantage.
 
-### Comment les raccourcis clavier sont-ils organisés ?
+#### Comment les raccourcis clavier sont-ils organisés ?
 
 Les éditeurs de logiciels s’appuient généralement sur les recommandations de l’environnement de bureau ou du système pour lequel ils conçoivent leur application.<sup>[9](#références)</sup> <sup>[10](#références)</sup>
 
 
-### Quelques exemples d'utilisation avancée
+#### Quelques exemples d'utilisation avancée
 
 Pour observer des utilisateurs expérimentés à l’œuvre, rien de mieux que de se tourner vers les milieux compétitifs, comme la programmation compétitive ou les compétitions Excel. On remarque rapidement que ces utilisateurs maîtrisent les raccourcis clavier de manière presque instinctive : ils savent à l’avance quelle action ils souhaitent effectuer et utilisent directement le raccourci correspondant, sans avoir à y réfléchir.
 
