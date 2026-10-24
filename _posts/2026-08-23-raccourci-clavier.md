@@ -5,7 +5,7 @@ date: 2026-08-18 18:00:00 +0200
 categories: quotidien grand-public ihm
 ---
 
-Tout le monde connaît les principaux raccourcis clavier : Ctrl + C pour copier, Ctrl + V pour coller. Mais qu'en est-il des dizaines autres voire centaines de votre système ou vos logiciels préféré. Nous explorons dans cet article des manières pour les intégrer efficacement à votre quotidien.
+Tout le monde connaît les principaux raccourcis clavier : Ctrl + C pour copier, Ctrl + V pour coller. Mais qu'en est-il des dizaines autres voire centaines de votre système ou de vos logiciels préféré. Nous explorons dans cet article des manières pour les intégrer efficacement à votre quotidien.
 
 ## Mais d'abord un peu de théorie
 [Pas le temps pour la théorie ? Passons directement aux astuces](#mes-astuces)                                   
