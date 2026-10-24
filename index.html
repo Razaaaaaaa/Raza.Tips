@@ -4,9 +4,6 @@ title: README.md
 paginate_path: "/blog/page:num/"
 ---
 
-<div class="d-flex justify-content-center p-4">
-  <img src="/assets/images/title.png" class="img-fluid" alt="Logo">
-</div>
 
 
 
@@ -23,7 +20,7 @@ paginate_path: "/blog/page:num/"
 
 
 
-<div class="container d-flex flex-column gap-3">
+<div class="container d-flex flex-column gap-3 mb-5">
 <div id="astuces" class=" ">
   {% for post in site.posts limit:5 %}
     <div class="text-decoration-none  pb-2 ">
@@ -58,7 +55,7 @@ paginate_path: "/blog/page:num/"
           {% endif %}
 
                     {% if post.categories %}
-              <div class="d-flex gap-2">
+              <div class="d-flex flex-wrap gap-2">
                 {% for category in post.categories %}
                   <span class="p-1" style="border: solid 1px white;">
                     {{ category }}
@@ -69,9 +66,9 @@ paginate_path: "/blog/page:num/"
 
 
        <div class=" p-1 text-center">
-<a class=" tuibutton text-white rounded-0 text-decoration-none"
+<a class="text-white rounded-0 text-decoration-none tuibutton"
    href="{{ post.url | relative_url }}">
-  [ <span class="text-primary">O</span>uvrir ]
+  [ Ouvrir ]
 </a>
 
 </div>
@@ -83,9 +80,10 @@ paginate_path: "/blog/page:num/"
       </div>
 
 
-    </div>
+  
+      
   {% endfor %}
-
+  </div>
 {% if paginator.total_pages > 1 %}
 <nav aria-label="Pagination">
   <ul class="pagination justify-content-center gap-2">
