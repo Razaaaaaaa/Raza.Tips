@@ -3,12 +3,13 @@ layout: post
 title: "Mémoriser ses raccourcis clavier"
 date: 2026-08-18 18:00:00 +0200
 categories: quotidien grand-public ihm
+wip: false
 ---
 
-Tout le monde connaît les principaux raccourcis clavier : Ctrl + C pour copier, Ctrl + V pour coller. Mais qu'en est-il des dizaines autres voire centaines de votre système ou de vos logiciels préféré. Nous explorons dans cet article des manières pour les intégrer efficacement à votre quotidien.
+Vous maîtrisez ce logiciel aussi bien qu’Alexandre, et pourtant, il réalise les mêmes tâches dix fois plus vite que vous. Son secret ? Il connait parfaitement ses raccourcis clavier ! Découvrez quelques astuces pour l'égaler.
 
-## Mais d'abord un peu de théorie
-[Pas le temps pour la théorie ? Passons directement aux astuces](#mes-astuces)                                   
+## Avant-propos
+[Pas le temps ? Passez directement aux astuces](#mes-astuces)                                   
 
 Dans les années 1970, les travaux menés au Xerox PARC autour du Xerox Alto ont contribué à poser les bases de nombreuses interactions avec le texte que nous utilisons encore aujourd’hui.
 
