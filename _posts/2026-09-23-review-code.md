@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Faire enfin des reviews de code enfin sérieusement
+title: Faire des reviews de code enfin sérieusement
 date: 2026-09-18 16:00:00 +0200
 categories: dev appsec wip
 wip: true
