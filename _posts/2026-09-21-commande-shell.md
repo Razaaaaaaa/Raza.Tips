@@ -26,11 +26,11 @@ Ce guide part du principe que l'utilisation efficace d'un shell repose avant tou
 Pour mieux vous repérer parmi les différentes astuces, voici une petite légende qui vous aidera à repérer les prérequis de l'astuce :
 
 <span class="text-success">[COMMANDE]</span> <span class="text-warning">[OPTION]</span> <span class="text-danger">[ARGUMENT]</span>
-- <span class="text-success">En vert ce qui est su</span>
-- <span class="text-warning">Ce qui est partiellement connu. (Ex : savoir que dans la commande `kubectl` il y a `kube`)</span>
-- <span class="text-danger">Ce qui est ignoré</span>
+- <span class="text-success">En vert, ce qui est su</span>
+- <span class="text-warning">En orange, ce qui est partiellement connu. (Ex : savoir que dans la commande `kubectl` il y a `kube`)</span>
+- <span class="text-danger">En rouge, ce qui est ignoré</span>
 
-Pour bien tirer partie de ces astuces, il faut être capable d'utiliser plusieurs solutions en fonction de votre contexte. 
+Pour bien tirer partie de ces astuces, il faut être capable d'utiliser plusieurs astuces en fonction de votre contexte. 
 
 ## Mes astuces 
 
