@@ -21,6 +21,17 @@ Aujourd’hui, la plupart des systèmes disposent d’un shell et, avec l’esso
 
 Ce guide part du principe que l'utilisation efficace d'un shell repose avant tout sur la capacité à construire ses commandes de manière fluide. Pour cela, il est essentiel de savoir identifier (ou de trouver) le nom de la commande à utiliser, ainsi que les options et les arguments nécessaires pour réaliser l'action souhaitée.
 
+#### LÉGENDE
+
+Pour mieux vous repérer parmi les différentes astuces, voici une petite légende qui vous aidera à repérer les prérequis de l'astuce :
+
+<span class="text-success">[COMMANDE]</span> <span class="text-warning">[OPTION]</span> <span class="text-danger">[ARGUMENT]</span>
+- <span class="text-success">En vert ce qui est su</span>
+- <span class="text-warning">Ce qui est partiellement connu. (Ex : savoir que dans la commande `kubectl` il y a `kube`)</span>
+- <span class="text-danger">Ce qui est ignoré</span>
+
+Pour bien tirer partie de ces astuces, il faut être capable d'utiliser plusieurs solutions en fonction de votre contexte. 
+
 ## Mes astuces 
 
 ### 1. Exploiter les cheatsheets des commandes récurrente
