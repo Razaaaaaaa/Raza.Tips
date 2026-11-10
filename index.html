@@ -7,13 +7,15 @@ paginate_path: "/blog/page:num/"
 
 
 
-<div class="p-3 d-flex align-items-center d-flex gap-3 p-4">
+<div class="p-3 d-flex align-items-center gap-3 p-4">
   <input
+    id="search-input"
     class="form-control text-white"
-    style="border: solid 1px white;"
+    style="border: solid 1px white; background: transparent;"
     type="search"
     placeholder="Rechercher une astuce"
     aria-label="Rechercher une astuce"
+    autocomplete="off"
   >
 </div>
 
@@ -22,6 +24,12 @@ paginate_path: "/blog/page:num/"
 
 <div class="container d-flex flex-column gap-3 mb-5">
 <div id="astuces" class=" ">
+  
+  <div id="search-results"></div>
+
+
+  <div id="default-articles">
+
   {% for post in site.posts limit:5 %}
     <div class="text-decoration-none  pb-2 ">
       <fieldset class="" >
@@ -84,6 +92,7 @@ paginate_path: "/blog/page:num/"
       
   {% endfor %}
   </div>
+  
 {% if paginator.total_pages > 1 %}
 <nav aria-label="Pagination">
   <ul class="pagination justify-content-center gap-2">
@@ -133,6 +142,7 @@ paginate_path: "/blog/page:num/"
   </ul>
 </nav>
 {% endif %}
+</div>
 </div>
 </div>
 

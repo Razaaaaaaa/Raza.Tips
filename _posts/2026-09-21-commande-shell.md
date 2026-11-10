@@ -15,7 +15,7 @@ Vous venez de télécharger une archive compressée depuis votre terminal et vou
 
 [Pas le temps ? Passez directement aux astuces](#mes-astuces) 
 
-En 1971, le premier shell nommé Unix Thompson shell a été introduit par Ken Thompson<sup>[1](#références)</sup>. A cette période il n'y avait pas internet et la seule manière d'accéder a la documentation était depuis un manuel imprimé. L'année d'après apparait l'utilitaire man avec la version 2 d'Unix<sup>[2](#références)</sup>
+En 1971, le premier shell nommé Unix Thompson shell a été introduit par Ken Thompson<sup>[1](#références)</sup>. A cette période il n'y avait pas internet et la seule manière d'accéder a la documentation était depuis un manuel imprimé. L'année d'après apparait l'utilitaire man avec la version 2 d'Unix
 
 Aujourd’hui, la plupart des systèmes disposent d’un shell et, avec l’essor de l’open source, les outils comme les ressources ne manquent pas. Mais avons-nous adopter les bonnes habitudes ? 
 
@@ -30,7 +30,7 @@ Pour mieux vous repérer parmi les différentes astuces, voici une petite légen
 - <span class="text-warning">En orange, ce qui est partiellement connu. (Ex : savoir que dans la commande `kubectl` il y a `kube`)</span>
 - <span class="text-danger">En rouge, ce qui est ignoré</span>
 
-Pour bien tirer partie de ces astuces, il faut être capable d'utiliser plusieurs astuces en fonction de votre contexte. 
+Pour bien tirer partie de ces guide il faut être capable d'utiliser plusieurs astuces en fonction de votre contexte. 
 
 ## Mes astuces 
 
@@ -40,6 +40,10 @@ Pour bien tirer partie de ces astuces, il faut être capable d'utiliser plusieur
 
 
 Un excellent outil pour découvrir rapidement les usages courants d'une commande est [tldr](https://github.com/tldr-pages/tldr). Il fournit, en quelques secondes, des exemples concrets et directement réutilisables, sans avoir à parcourir de longues pages de documentation. 
+
+Pour mettre en pratique cette astuce [téléchargez l'outil](https://github.com/tldr-pages/tldr#how-do-i-use-it) et essayez de lancer `tldr tar`.
+
+Des outils similaires existent tel que cheat.sh, devhints, eg etc<sup>[2](#références)</sup>. N'hésitez pas a les essayer eux aussi.  
 
 ### 2. Vous n'avez pas besoin de tout connaitre car tout est documenté 
 
@@ -87,3 +91,4 @@ Plusieurs outils interactifs existent pour simplifier d'autre beaucoup plus comp
 ## Références 
 
 1. [Thompson shell](https://en.wikipedia.org/wiki/Thompson_shell)
+2. [Projet similaire a tldr-page](https://github.com/tldr-pages/tldr#how-do-i-use-it)
