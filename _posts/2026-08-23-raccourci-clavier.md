@@ -66,7 +66,15 @@ C’est à partir de ce constat qu’il est pertinent de prioriser la mémorisat
   - [Shortcut Foo](https://www.shortcutfoo.com/)
   - [Key Combiner](https://keycombiner.com/)
 
-
+<div class="container">
+  <div class="row justify-content-center g-4 p-3">
+  
+  <img
+      src="https://keycombiner.com/static/images/collecting.43113ea73660.gif"
+      style="width: 500px !important; height: auto !important; max-width: 100%;"
+    >
+  </div>
+</div>
 
 ### 5. Apprendre les raccourcis claviers communs 
 
