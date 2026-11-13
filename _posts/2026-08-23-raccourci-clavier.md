@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Mémoriser ses raccourcis clavier"
+title: "Tirer pleinement parti de ses raccourcis clavier."
 date: 2026-08-18 18:00:00 +0200
 categories: quotidien grand-public ihm
 wip: false
 ---
 
-Vous maîtrisez ce logiciel aussi bien qu’Alexandre, et pourtant, il réalise les mêmes tâches dix fois plus vite que vous. Son secret ? Il connait parfaitement ses raccourcis clavier ! Découvrez quelques astuces pour l'égaler.
+Vous maîtrisez ce logiciel aussi bien que Kévin, et pourtant, il réalise les mêmes tâches dix fois plus vite que vous. Son secret ? Il connait parfaitement ses raccourcis clavier ! Découvrez quelques astuces pour l'égaler.
 
 ## Avant-propos
 [Pas le temps ? Passez directement aux astuces](#mes-astuces)                                   
 
 Dans les années 1970, les travaux menés au Xerox PARC autour du Xerox Alto ont contribué à poser les bases de nombreuses interactions avec le texte que nous utilisons encore aujourd’hui. Quelques années plus tard, chez Apple, ces principes sont repris, améliorés et popularisés avec le Lisa puis le Macintosh. C’est notamment à cette époque que les célèbres ⌘C, ⌘X, ⌘V et ⌘Z apparaissent<sup>[2](#références)</sup>. Leurs équivalents avec Ctrl deviendront ensuite des conventions incontournables sur Windows.
 
-Les logiciels modernes proposent parfois des centaines de raccourcis. Microsoft Word en recense aujourd’hui plus de 200<sup>[7](#références)</sup>, tandis que des logiciels comme Blender ou Photoshop en proposent encore davantage. C'est là où le problème se pose : Quels sont les bonnes pratiques à adopter au quotidien pour maximiser l'utilisation des raccourcis clavier.
+Les logiciels modernes proposent parfois des centaines de raccourcis. Microsoft Word en recense aujourd’hui plus de 200<sup>[7](#références)</sup>, tandis que des logiciels comme Blender ou Photoshop en proposent encore davantage. Un problème se pose alors : quelles bonnes pratiques adopter au quotidien pour exploiter pleinement le potentiel des raccourcis clavier ?
 
 
 ## Mes astuces
